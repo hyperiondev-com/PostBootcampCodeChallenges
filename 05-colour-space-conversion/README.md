@@ -1,4 +1,4 @@
-# Algorithms Challenge 3 - Colour Space Conversion
+# Algorithms Challenge 5 - Colour Space Conversion
 
 Write a program that converts a 24-bit colour BMP file to a 24-bit grayscale BMP file. Your program should handle IO, the pixel array's extraction 
 and its subsequent conversion to one that would result in a perceptually 24-bit grayscale BMP file. You may not use any external dependencies 

@@ -1,4 +1,4 @@
-# Algorithms Challenge 5 - All the Paths
+# Algorithms Challenge 4 - All the Paths
 
 Write a function that finds all the paths in a maze that visit each room, assuming the maze is composed of a room surrounded
 by four of either a closed door or an open door to the next room in the maze. If a door is open, it's represented as 1. If it's

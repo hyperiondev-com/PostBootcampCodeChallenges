@@ -55,4 +55,7 @@ If you use Java, this means no .class files. If you use JavaScript, no node_modu
 - Add the peer offering the peer-review as a reviewer to your pull-request. Once you've received the review, made the necessary adjustments 
 and they are approved, merge the branch to the main/master branch.
 - Offer a peer-review using the tag peer-review-offer.
+- Create a 5 minute video tutorial on the code challenge and link to it in your README file. You can use YouTube's unlisted feature if you wish
+for your tutorials to not be searchable if you wish to keep the tutorial private. You can share it with the rest of the graduates on the issue for 
+tutorials for the particularchallenge you would have completed.
 - Have a coffee with a friend before the next code challenge.

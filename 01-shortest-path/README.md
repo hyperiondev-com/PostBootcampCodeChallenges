@@ -8,34 +8,34 @@ Your function beave as the shortest_route function called below.
 ## Pseudocode Example
 
 ```
-cities = 
-    pair { 
+cities =
+    pair {
         "Durban"
         "Cape Town"
     }
 distances =
     map {
-        "Cape Town" -> 
-            array { 
-                pair { 
+        "Cape Town" ->
+            array {
+                pair {
                     "Johannesburg"
-                    1,261.00 km 
+                    1,261.00 km
                 }
             }
-        "Pretoria" -> 
+        "Pretoria" ->
             array {
-                pair { 
+                pair {
                     "Cape Town"
-                    1,308.26 km 
-                } 
+                    1,308.26 km
+                }
             }
-        "Durban" -> 
-            array { 
-                pair { 
+        "Durban" ->
+            array {
+                pair {
                     "Johannesburg"
-                    500.68 km 
-                } 
-                pair { 
+                    500.68 km
+                }
+                pair {
                     "Pretoria"
                     535.53 km
                 }
@@ -60,3 +60,9 @@ Route's value is shown below:
     }
  */
 ```
+
+## Space time and complexity
+
+Time complexity: the algorithm performs two loops over the input, assuming there are no further nested destinations. Given that the one loop is nested in the other, the worst case scenriao is O(n^2).
+
+Space complexity: Given that empty variables are declared upfront, which are then checked against and potentially replaced in each loop, extra memory is needed. That said, the size of each variable is relative small as we are dealing with integers and short strings.

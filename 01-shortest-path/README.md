@@ -2,7 +2,7 @@
 
 Write a function that finds the shortest route between any two given cities. Its argument is a pair of the cities' names and a map of the distances.
 You can assume the cities' names are names and the distances are in km.
-The function should return the a pair of the route and the distance of the route.
+The function should return the pair of the route and the distance of the route.
 Your function beave as the shortest_route function called below.
 
 ## Pseudocode Example
